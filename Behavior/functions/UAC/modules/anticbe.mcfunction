@@ -10,7 +10,6 @@ execute @s[tag=!staffstatus,scores={acmtoggle=1,has_gt=0},hasitem={item=beehive,
 
 execute @s[scores={acmtoggle=1}] ~~~ kill @e[type=command_block_minecart]
 execute @s[scores={acmtoggle=1}] ~~~ kill @e[name="minecart"]
-execute @s[scores={acmtoggle=1}] ~~~ kill @e[type=npc]
 execute @s[scores={acmtoggle=1}] ~~~ kill @e[type=falling_block]
 execute @s[scores={acmtoggle=1,has_gt=0},tag=!staffstatus] ~~~ clear @s beehive
 execute @s[scores={acmtoggle=1,has_gt=0},tag=!staffstatus] ~~~ clear @s bee_nest
